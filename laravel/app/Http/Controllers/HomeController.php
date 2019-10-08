@@ -25,4 +25,8 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function add_activity(){
+        return view('add_activity');
+    }
 }

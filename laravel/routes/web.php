@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/add_activity', 'HomeController@add_activity')->name('add_activity');
+
+/* 
+Route::get('/about-me', 'PageController@aboutMe')->name('about-me');
+*/
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
