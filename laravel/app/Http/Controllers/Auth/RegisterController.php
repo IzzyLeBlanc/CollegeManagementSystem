@@ -55,7 +55,12 @@ class RegisterController extends Controller
             'password' => ['required', 'string', 'min:8', 'confirmed'],
             'phoneNo' => ['required', 'string', 'min:10', 'max:11'],
             'address' => ['required', 'string', 'max:255'],
-            'role' => ['required', 'string', 'max:255']
+            'role' => ['required', 'string', 'max:255',
+                function($attribute, $value, $fail){
+                    if($value != "student" && $value != "staff" && $value != "admin"){
+                        $fail($attribute.' is invalid.');
+                    }
+                }]
         ]);
     }
 

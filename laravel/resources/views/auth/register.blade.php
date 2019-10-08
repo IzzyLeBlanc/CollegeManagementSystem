@@ -12,7 +12,7 @@
                         @csrf
 
                         <div class="form-group row">
-                            <label for="id" class="col-md-4 col-form-label text-md-right">ID</label>
+                            <label for="id" class="col-md-4 col-form-label text-md-right">{{__('ID')}}</label>
 
                             <div class="col-md-6">
                                 <input id="name" type="text" class="form-control @error('id') is-invalid @enderror" name="id" value="{{ old('id') }}" required autocomplete="id" autofocus>
@@ -76,7 +76,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="phoneNo" class="col-md-4 col-form-label text-md-right">Phone Number</label>
+                            <label for="phoneNo" class="col-md-4 col-form-label text-md-right">{{__('Phone Number')}}</label>
 
                             <div class="col-md-6">
                                 <input id="phoneNo" type="text" class="form-control @error('phoneNo') is-invalid @enderror" name="phoneNo" value="{{ old('phoneNo') }}" required autocomplete="phoneNo" autofocus>
@@ -90,7 +90,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="address" class="col-md-4 col-form-label text-md-right">Address</label>
+                            <label for="address" class="col-md-4 col-form-label text-md-right">{{__('Address')}}</label>
 
                             <div class="col-md-6">
                                 <input id="address" type="text" class="form-control @error('address') is-invalid @enderror" name="address" value="{{ old('address') }}" required autocomplete="address" autofocus>
@@ -104,10 +104,14 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="role" class="col-md-4 col-form-label text-md-right">Role</label>
+                            <label for="role" class="col-md-4 col-form-label text-md-right">{{__('Role')}}</label>
 
                             <div class="col-md-6">
-                                <input id="role" type="text" class="form-control @error('role') is-invalid @enderror" name="role" value="{{ old('role') }}" required autocomplete="role" autofocus>
+                                <select id="role" class="form-control @error('role') is-invalid @enderror" name="role" value="{{ old('role') }}" required autocomplete="role" autofocus>
+                                    <option value="student">{{__('Student')}}</option>
+                                    <option value="staff">{{__('Staff')}}</option>
+                                    <option value="admin">{{__('Admin')}}</option>
+                                </select>
 
                                 @error('role')
                                     <span class="invalid-feedback" role="alert">
