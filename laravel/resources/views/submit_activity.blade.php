@@ -40,8 +40,9 @@
                 <input type="text" name="activity_supervisor_name" id="activity_supervisor_name">
             </div>
             <div>
-                <input type="submit" name="submit_activity" id="submit_activity" class="button-primary">
+                <input type="file" name="proof" accept="image/*,.pdf">
             </div>
+            <button type="submit">Submit</button>
         </form>
         
     </div>

@@ -31,7 +31,8 @@
                 <input type="number" name="activity_merit" id="activity_merit">
             </div>
             <div>
-                <input type="submit" name="submit_activity" id="submit_activity" class="button-primary">
+                <button type="submit" name="submit_activity">Tambah Aktiviti</button>
+                <button type="reset">Padam</button>
             </div>
         </form>
         
