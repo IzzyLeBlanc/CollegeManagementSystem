@@ -15,6 +15,9 @@
                     @endif
 
                     You are logged in!
+
+                    <br>
+                    <a href="{{route('add_activity')}}">Tambah Aktiviti</a> | <a href="{{route('submit_activity')}}">Borang Penyertaan Aktiviti</a>
                 </div>
             </div>
         </div>

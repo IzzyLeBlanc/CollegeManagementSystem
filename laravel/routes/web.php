@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/add_activity', 'HomeController@add_activity')->name('add_activity');
+Route::get('/submit_activity', 'HomeController@submit_activity')->name('submit_activity');
 
 /* 
 Route::get('/about-me', 'PageController@aboutMe')->name('about-me');
