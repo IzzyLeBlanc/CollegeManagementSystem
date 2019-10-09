@@ -1,5 +1,5 @@
 <!DOCTYPE html>
 <html lang="eng">
-@include('layouts.head')
+@include('layouts.app')
 @include('layouts.body')
 </html>
