@@ -38,7 +38,6 @@ class HomeController extends Controller
         return view('Homepageadmin');
     }
 
-}
     public function homepagestudent(){
         return view('homepagestudent');
     }
