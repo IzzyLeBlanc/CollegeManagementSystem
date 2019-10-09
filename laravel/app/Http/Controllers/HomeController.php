@@ -39,3 +39,11 @@ class HomeController extends Controller
     }
 
 }
+    public function homepagestudent(){
+        return view('homepagestudent');
+    }
+    
+    public function staff_page(){
+        return view('staff_page');
+    }
+}

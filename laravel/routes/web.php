@@ -19,6 +19,12 @@ Route::get('/add_activity', 'HomeController@add_activity')->name('add_activity')
 Route::get('/submit_activity', 'HomeController@submit_activity')->name('submit_activity');
 Route::get('/Homepageadmin', 'HomeController@Homepageadmin')->name('Homepageadmin');
 
+/*Student page*/
+Route::get('/homepagestudent', 'HomeController@homepagestudent')->name('homepagestudent');
+
+/*Staff page*/
+Route::get('/staff_page', 'HomeController@staff_page')->name('staff_page');
+
 /* 
 Route::get('/about-me', 'PageController@aboutMe')->name('about-me');
 */

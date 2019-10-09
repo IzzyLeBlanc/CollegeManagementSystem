@@ -3,37 +3,41 @@
     Laman Utama Admin
 @endsection
 @section('contents')
-    
-    <div>
-        <form action="post">
-            <div>
-                <button type="button1" name="senarai">SENARAI</button>
-            </div>
-            <div>
-                <button type="button2" name="daftarpel">Pendaftaran Pelajar/Staff</button>
-            </div>
-            <div>
-                <button type="button8" name="daftarrek">Pendaftaran Rekod Bilik</button>
-            </div>
-            <div>
-                <button type="button3" name="bilik">Penambahan Bilik</button>
-            </div>
-            <div>
-                <button type="button4" name="facility">Penambahan Ruang Kemudahan</button>
-            </div>
-            <div>
-                <button type="button5" name="parking">Penambahan Tempat Letak Kereta</button>
-            </div>
-            <div>
-                <button type="button6" name="pengesahan">PENGESAHAN</button>
-            </div>
-            <div>
-                <button type="button7" name="permohonan">Permohonan Tempat Letak Kereta</button>
-            </div>
-            <div>
-                <button type="button9" name="parkper">Permohonan Ruang Kemudahan</button>
-            </div>
-        </form>
-        
+<div class="container">
+    <div class="card-header text-center">
+        SENARAI 
+    </div>
+    <div class="card-body ">
+        <div class="row justify-content-xl-center">
+            <button class="btn btn-outline-primary">PENDAFTARAN PELAJAR/STAF</button>
+        </div>
+        <br>
+        <div class="row justify-content-xl-center">
+            <button class="btn btn-outline-primary">PENDAFTARAN REKOD SEWAAN BILIK</button>
+        </div>
+        <br>
+        <div class="row justify-content-xl-center">
+            <button class="btn btn-outline-primary">PENAMBAHAN BILIK</button>
+        </div>
+        <br>
+        <div class="row justify-content-xl-center">
+            <button class="btn btn-outline-primary">PENAMBAHAN RUANG KEMUDAHAN</button>
+        </div>
+        <br>
+        <div class="row justify-content-xl-center">
+            <button class="btn btn-outline-primary">PENAMBAHAN TEMPAT LETAK KERETA</button>
+        </div>
+    </div>
+    <div class="card-header text-center">
+        PENGESAHAN
+    </div>
+    <div class="card-body">
+        <div class="row justify-content-xl-center">
+            <button class="btn btn-outline-primary">PERMOHONAN TEMPAT LETAK KERETA</button>
+        </div>
+        <br>
+        <div class="row justify-content-xl-center">
+            <button class="btn btn-outline-primary">PERMOHONAN TEMPAT KEMUDAHAN</button>
+        </div>
     </div>
 @endsection
