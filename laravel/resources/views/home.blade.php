@@ -17,7 +17,7 @@
                     You are logged in!
 
                     <br>
-                    <a href="{{route('add_activity')}}">Tambah Aktiviti</a> | <a href="{{route('submit_activity')}}">Borang Penyertaan Aktiviti</a>
+                    <a href="{{route('add_activity')}}">Tambah Aktiviti</a> | <a href="{{route('submit_activity')}}">Borang Penyertaan Aktiviti</a> | <a href="{{route('Homepageadmin')}}">Laman Utama - Admin</a> 
                 </div>
             </div>
         </div>

@@ -33,4 +33,9 @@ class HomeController extends Controller
     public function submit_activity(){
         return view('submit_activity');
     }
+
+    public function Homepageadmin(){
+        return view('Homepageadmin');
+    }
+
 }
