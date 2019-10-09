@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('title')
-    SELAMAT DATANG KE SISTEM eKOLEJ
+    Halaman Pelajar
 @endsection
 @section('contents')
     <div class="container">
