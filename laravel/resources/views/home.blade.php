@@ -17,7 +17,9 @@
                     You are logged in!
 
                     <br>
-                    <a href="{{route('add_activity')}}">Tambah Aktiviti</a> | <a href="{{route('submit_activity')}}">Borang Penyertaan Aktiviti</a> | <a href="{{route('homepagestudent')}}">Homepage - Student</a> 
+                    <a href="{{route('add_activity')}}">Tambah Aktiviti</a> | 
+                    <a href="{{route('submit_activity')}}">Borang Penyertaan Aktiviti</a>|
+                    <a href="{{route('staff_page')}}">Halaman Staff</a>
                 </div>
             </div>
         </div>
