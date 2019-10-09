@@ -41,3 +41,4 @@ class HomeController extends Controller
     public function staff_page(){
         return view('staff_page');
     }
+}
