@@ -19,7 +19,7 @@
                     <br>
                     <a href="{{route('add_activity')}}">Tambah Aktiviti</a> | 
                     <a href="{{route('submit_activity')}}">Borang Penyertaan Aktiviti</a>|
-                    <a href="{{route('staff_page')}}">Halaman Staff</a>
+                    <a href="{{route('staff_page')}}">Halaman Staff</a>|
                     <a href="{{route('homepagestudent')}}">Halaman Pelajar</a>
                 </div>
             </div>
