@@ -1,16 +1,20 @@
 @extends('layouts.layout')
 @section('title')
-    Selamat Datang ke Ekolej
+    SELAMAT DATANG KE SISTEM eKOLEJ
 @endsection
 @section('contents')
-    
-    <div>
-        <form action="post">
-            <div>
-                Senarai Aktiviti <br>
-                <button type="enter" name="reservation_facility">Tempahan Kemudahan</button>
-                <button type="enter" name="reservation_parking_lot">Permohonan Tempat Letak Kenderaan</button> 
+    <div class="container">
+        <div class="card-header text-center">
+            SENARAI AKTIVITI
+        </div>
+        <div class="card-body ">
+            <div class="row justify-content-xl-center">
+                <button class="btn btn-outline-primary">TEMPAHAN KEMUDAHAN</button>
             </div>
-        </form>
+            <br>
+            <div class="row justify-content-xl-center">
+                <button class="btn btn-outline-primary">PERMOHONAN TEMPAT LETAK KENDERAAN</button>
+            </div>
+        </div>
     </div>
 @endsection
